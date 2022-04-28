@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venum Fight Shop</title>
+        <link rel="icon" type="image/x-icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F656733.jpg&f=1&nofb=1">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header id="home">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F656733.jpg&f=1&nofb=1" alt="" height="50px" width="50px">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#cart">Cart</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main> 
+        <div class="headline" id="shop"><h1>SHOP FIGHT GEAR</h1></div>
+        <div class="grid-container">
+           
+            <div class="container" id="shorts" title="snake-short" value="50.00">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fminotaurfightstore.co.uk%2Fwp-content%2Fuploads%2F2018%2F03%2Fvenum-snaker-shorts.jpg&f=1&nofb=1" height="200px" width="200px"  alt=""><figcaption>Light Board shorts, excellent for training or competition!</figcaption><h4>$50.00</h4><button onclick="addToCart()"> Add to Cart</button>
+            </div>
+            <div class="container" id="shorts1" title="dragon-short" value="50.00"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fasr%2F19360a59-2acf-42c7-b808-3f59a31e4f45_1.aeaaceb4f2963f38afbeb983ac752826.jpeg&f=1&nofb=1" height="200px" width="200px" alt=""><figcaption>Beautiful dragon shorts to put the style in your next brawl!</figcaption><h4>$50.00</h4><button onclick="addToCart1()">Add to Cart</button></div>
+            <div class="container" id="shorts2" value="50.00"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.fightshorts.nl%2FFiles%2F3%2F5000%2F5770%2FAttachments%2FProduct%2F468i25i3O34f42429817QaF67J574277.jpg&f=1&nofb=1" height="200px" width="200px" alt=""><figcaption>Dia de Los Muertos!</figcaption><h4>$50.00</h4><button onclick="addToCart2()">Add to Cart</button></div>
+            <div class="container" id="shorts3" value="50.00"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fminotaurfightstore.co.uk%2Fwp-content%2Fuploads%2F2018%2F08%2FVenum-Gladiator-3.0-Vale-Tudo-Shorts-Compression.jpg&f=1&nofb=1" height="200px" width="200px" alt=""><figcaption>Engage in War with these Spartan compression fight shorts!</figcaption><h4>$50.00</h4><button onclick="addToCart3()">Add to Cart</button></div>
+            <div class="container" id="shorts4" value="50.00"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fasr%2Fe1bc1db3-1b73-49f8-a86b-381923fbfb9b_1.baf93f7f48de00e0df40290e1d6a2c3d.jpeg&f=1&nofb=1" height="200px" width="200px "alt=""><figcaption>Bring out the Beast!</figcaption><h4>$50.00</h4><button onclick="addToCart4()">Add to Cart</button></div>
+            <div class="container" id="shorts5" value="50.00"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn10.bigcommerce.com%2Fs-eodzx%2Fproducts%2F1272%2Fimages%2F7252%2Fs-l1600_4__09026.1511422878.1280.1280.jpg%3Fc%3D2&f=1&nofb=1" height="200px" width="200px" alt=""><figcaption>Raid the Cage with these Viking Fight Shorts!</figcaption><h4>$50.00</h4><button onclick="addToCart5()">Add to Cart</button></div>
+            <div class="container" id="rash-guard" value="50.00"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffighterxfashion.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fvenum-viking-2-rashguard-1.jpg&f=1&nofb=1" height="200px" width="200px" alt=""><figcaption>Complete your Raiding Gear with this Viking Rash Guard</figcaption><h4>$50.00</h4><button onclick="addToCart6()">Add to Cart</button></div>
+            <div class="container" id="spar-gear" value="50.00"><img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffighterxfashion.com%2Fwp-content%2Fuploads%2F2012%2F04%2Fvenum-stand-up-training-bundle.jpg&f=1&nofb=1" height="200px" width="200px" alt=""><figcaption>Hit the gym in style with this complete sparring kit</figcaption><h4>$50.00</h4><button onclick="addToCart7()">Add to Cart</button></div>
+            <div class="container" id="mmagloves" value="50.00"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kampfsport-24.com%2Fmedia%2Fimage%2F62%2F80%2F55%2Fmma-fight-gloves-undisputed-black-venum-eu-venum-0121-s-0.jpg&f=1&nofb=1" height="200px" width="200px" alt=""><figcaption>Make Sure to add these MMA gloves for MMA sparring and grappling</figcaption><h4>$50.00</h4><button onclick="addToCart8()">Add to Cart</button></div>
+        </div>
+<br>
+        <div class="shopping-cart1" id="cart">
+            <table class="shopping-cart">
+                <tr>
+                    <th>Fight Shop Item</th>
+                    <th>Price</th>
+                </tr>
+                <!--<tr>
+                    <td id="item1"></td>
+                    <td id="price1"></td>
+                </tr>
+                <tr>
+                    <td id="item2"></td>
+                    <td id="price2"></td>
+                </tr>-->
+                
+            </table>
+            <br>
+        
+    </div>
+    <br>
+    <div class="check-out">
+        <button onclick="checkOut()" >Check Out Now!</button>
+    </div>
+    <div class="check-out-total"></div>
+    
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
