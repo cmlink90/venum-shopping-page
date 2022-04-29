@@ -50,6 +50,16 @@ figcaption{
     height: 300px;
     padding: 2rem;
 }
+
+@media (max-width: 475px) {
+    .grid-container {
+      display: inline;
+    }
+    .container {
+        justify-content: center;
+        margin-left: 7rem;
+    }
+  }
 main {
 
 }
